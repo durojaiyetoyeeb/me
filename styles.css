@@ -19,9 +19,10 @@ body {
     border-radius: 15px;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-    border: 2px solid #ddd;
+    border: 6px solid #ddd;
     padding: 20px;
     transition: 0.3s ease-in-out;
+    border-color:black;
 }
 
 /* Profile Image */
