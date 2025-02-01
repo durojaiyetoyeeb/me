@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Profile Card */
+.profile-card {
+    display: flex;
+    background: white;
+    width: 800px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    border: 2px solid #ddd;
+    padding: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+/* Profile Image */
+.image-section img {
+    width: 230px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.info-section {
+    padding: 20px;
+    flex: 1;
+}
+
+.name {
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+}
+
+.verified {
+    color: #1DA1F2;
+}
+
+.role {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0 15px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.6;
+}
+
+/* Skills Section */
+.skills-title {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+/* Social Media */
+.social-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.social-btn img {
+    width: 35px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-btn img:hover {
+    transform: scale(1.1);
+}
+
+/* Blog Button */
+#blogButton {
+    display: block;
+    width: 100%;
+    background-color: #1DA1F2;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+#blogButton:hover {
+    background-color: #0d8ae1;
+}
+
+#blogButton:active {
+    transform: scale(0.95);
+}
+
+/* ===== 📱 MOBILE RESPONSIVENESS ===== */
+@media (max-width: 768px) {
+    .profile-card {
+        flex-direction: column;
+        width: 100%;
+        max-width: 400px;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .image-section img {
+        width: 100%;
+        max-width: 250px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .info-section {
+        padding: 15px;
+    }
+}
+.social-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.social-btn {
+    font-size: 24px;
+    color: #444;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-btn:hover {
+    transform: scale(1.1);
+    color: #1DA1F2;
+}
+
