@@ -28,7 +28,7 @@ body {
 .image-section img {
     width: 350px;
     height: 500px;
-    border-radius: 10px;
+    border-radius: 8px;
     object-fit: cover;
 }
 
