@@ -1,4 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
+     // Update UTC Time
+    function updateUTCTime() {
+        const now = new Date();
+        const utcTime = now.toISOString().replace("T", " ").slice(0, -5) + " UTC";
+        document.getElementById("currentTimeUTC").textContent = utcTime;
+    }
+
+    updateUTCTime(); // Run on page load
     // Social Media Icons Hover Effects
     const socialButtons = document.querySelectorAll(".social-btn");
     socialButtons.forEach((button) => {
