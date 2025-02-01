@@ -151,6 +151,14 @@ body {
     color: #444;
     transition: transform 0.3s ease-in-out;
 }
+/* UTC Time */
+.utc-time {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+    font-weight: bold;
+}
 
 .social-btn:hover {
     transform: scale(1.1);
