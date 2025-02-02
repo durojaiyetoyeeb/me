@@ -21,6 +21,6 @@ document.addEventListener("DOMContentLoaded", function () {
     // Blog Button Redirect
     const blogButton = document.getElementById("blogButton");
     blogButton.addEventListener("click", function () {
-        window.location.href = "https://hng.tech/blog"; // Change this to the actual HNG blog link
+        window.location.href = "https://toyeebdurojaiyeblog.blogspot.com/"; // Change this to the actual HNG blog link
     });
 });
